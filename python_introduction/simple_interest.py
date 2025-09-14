@@ -7,6 +7,6 @@ time = 3
 
 
 #Calculating simple interest
-interest = (principal * rate * time)
+interest = principal * rate * time
 
 print("The simple interest is: " + str(interest))
