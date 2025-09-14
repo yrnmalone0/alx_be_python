@@ -7,7 +7,7 @@ monthly_savings = int(monthly_income) - int(total_monthly_expenses)
 
 
 #calculate annual savings
-project_annual_savings = monthly_savings * 12 + (monthly_savings * 12 * 0.05)
+project_annual_savings = (monthly_savings * 12 + (monthly_savings * 12 * 0.05))
 
 print("Your monthly savings are: " + "$"+str(monthly_savings)+".")
 print("Projected savings after one year, with interest, is: " + "$"+str(project_annual_savings)+".")
