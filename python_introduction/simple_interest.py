@@ -12,6 +12,6 @@ T = time
 
 #Calculating simple interest
 I = (P * R * T)
-interest = (P(principal) * R(rate) * T(time))
-#(int(principal) * float(rate) * int(time))
+
+interest = (int(principal) * float(rate) * int(time))
 print("The simple interest is: " + str(interest))
