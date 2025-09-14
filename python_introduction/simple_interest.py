@@ -1,15 +1,17 @@
 #SIMPLE INTEREST CALCULATOR
 
 #Defining three(3) variables with values
-principal = int(1000)
-rate = float(0.05)
-time = int(3)
+principal = 1000
+rate = 0.05
+time = 3
 
 P = principal
 R = rate
 T = time 
 
+
 #Calculating simple interest
-interest = (P * R * T)
+I = (P * R * T)
+interest = (P(principal) * R(rate) * T(time))
 #(int(principal) * float(rate) * int(time))
 print("The simple interest is: " + str(interest))
