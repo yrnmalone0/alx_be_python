@@ -5,12 +5,8 @@ principal = 1000
 rate = 0.05
 time = 3
 
-P = int(principal)
-R = float(rate)
-T = int(time) 
-
 
 #Calculating simple interest
-interest = (P * R * T)
+interest = (principal * rate * time)
 
 print("The simple interest is: " + str(interest))
