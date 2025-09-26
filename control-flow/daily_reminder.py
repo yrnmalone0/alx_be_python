@@ -1,9 +1,12 @@
 ## simplified Python script that uses conditional statements, Match Case, and loops to remind the user about a single, priority task for the day based on time sensitivity.
 
 # Get user input for the task details
-task = input("Enter your task: ")
+task = input("Task: ")
 priority = input("Priority (high, medium, low): ").lower()
-time_bound = input("Is it time-bound? (yes/no): ").lower()
+time_bound = input("Time Bound: ").lower()
+# task = input("Enter your task: ")
+# priority = input("Priority (high, medium, low): ").lower()
+# time_bound = input("Is it time-bound? (yes/no): ").lower()
 
 # Using a Match Case statement to react differently based on the task’s priority.
 match priority:
