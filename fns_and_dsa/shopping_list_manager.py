@@ -15,16 +15,16 @@ def main():
 
         if choice == '1':
             # Prompt for and add an item
-            add_item = input("Add an item: ")
-            shopping_list.append(add_item)
-            print(f"Item added successfully: {shopping_list}")
+            item = input("Enter item to add: ")
+            shopping_list.append(item)
+            print(f"{item} added successfully!")
             pass
         elif choice == '2':
             # Prompt for and remove an item
-            remove_item = input("Remove an item: ")
-            if remove_item in shopping_list:
-                shopping_list.remove(remove_item)
-                print(f"Item removed successfully: {shopping_list}")
+            item = input("Enter item to remove: ")
+            if item in shopping_list:
+                shopping_list.remove(item)
+                print(f"{item} removed successfully!")
             else:
                 print("Item cannot be found")
             pass
