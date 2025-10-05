@@ -20,4 +20,4 @@ class BankAccount:
 
     # display_balance prints the current balance in a user-friendly format
     def display_balance(self):
-        print("Current Balance:", self.balance)
+        return "Current Balance:", self.balance
